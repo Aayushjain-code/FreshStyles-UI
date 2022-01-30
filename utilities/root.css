@@ -1,5 +1,6 @@
 :root {
-	--primary-light-color: #00ffea;
+	--primary-light-color: #00db379d;
+	--primary-vlight-color: #56f17dc0;
 	--primary-color: #009b27;
 	--primary-dark-color: #004943;
 	--primary-bg: rgb(255, 235, 123);
@@ -15,7 +16,7 @@
 	--text-dark: #333;
 
 	--success-bg: #e8fcf1;
-	--success-text: #00fa6c;
+	--success-text: #005525;
 
 	--info-bg: #e6f7ff;
 	--info-text: #44abcb;
