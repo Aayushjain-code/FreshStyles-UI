@@ -28,7 +28,7 @@ body {
 
 .nav-sub-head {
 	background-color: var(--primary-light-color);
-    padding: 0.5rem;
-	border-radius: 0.5rem;
+    padding: 0.2rem;
+	border-radius: 0.2rem;
 	display: inline;
 }
