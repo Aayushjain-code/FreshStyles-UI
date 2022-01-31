@@ -76,7 +76,7 @@
 .secondary-text-btn-lg-nav{
 		background: none;
 		color: var(--text-light);
-		padding: 0.0rem 0.4rem;
+		padding: 0.0rem 0.2rem;
 		transition: 0.5s;
 }
 .secondary-text-btn-lg-nav:hover{
@@ -107,7 +107,7 @@
 .secondary-text-btn-lg-nav,
 .secondary-btn-lg,
 .disabled-btn-lg {
-	font-size: 1.2rem;
+	font-size: 1.0rem;
 }
 
 .primary-btn:hover,
