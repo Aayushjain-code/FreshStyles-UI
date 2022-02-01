@@ -163,6 +163,7 @@
 .img-responsive {
 	width: 100%;
 	height: auto;
+	border-radius: 8px;
 }
 
 .img-round {
@@ -178,6 +179,17 @@
 	row-gap: 1rem;
 
 }
+
+
+/* display flex row */
+
+.display-flex-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
 
 /* flex column */
 .flex-dir-column {
