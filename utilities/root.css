@@ -12,20 +12,20 @@
 
 	--text-white: #fff;
 	--text-lighter: rgb(175, 175, 175);
-	--text-light: #777;
-	--text-dark: #333;
+	--text-light: rgb(97, 97, 97);
+	--text-dark: rgb(0, 0, 0);
 
-	--success-bg: #e8fcf1;
-	--success-text: #005525;
+	--success-bg: #00ff73;
+	--success-text: #ffffff;
 
-	--info-bg: #e6f7ff;
-	--info-text: #44abcb;
+	--info-bg: #00aeff;
+	--info-text: #ffffff;
 
-	--warning-bg: #fefbe6;
-	--warning-text: hsl(40, 100%, 50%);
+	--warning-bg: #ffdd00;
+	--warning-text: hsl(0, 0%, 100%);
 
-	--error-bg: #fef2f1;
-	--error-text: #ff0000;
+	--error-bg: #f81500;
+	--error-text: #ffffff;
 
 	--btn-hover: rgba(138, 138, 138, 0.2);
 }
