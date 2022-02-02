@@ -80,7 +80,7 @@
 		transition: 0.5s;
 }
 .secondary-text-btn-lg-nav:hover{
-	background-color:var(--primary-vlight-color);
+	color:var(--primary-vlight-color);
 	padding: 0.1rem 3.3rem 0.1rem 0.4rem;
 }
 

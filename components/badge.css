@@ -75,15 +75,15 @@
 	align-items: center;
 	justify-content: center;
 	color: var(--text-white);
-	background-color: var(--warning-text);
+	background-color: var(--error-bg);
 
 	min-width: 1.8em;
 	font-weight: 400;
 
 	font-size: 1em;
-	top: -0.3em;
-	right: -0.8em;
-	padding: 0.4em 0.6em;
+	top: -1em;
+	right: -1em;
+	padding: 0.5em 1em;
 	border-radius: 5px;
 }
 
