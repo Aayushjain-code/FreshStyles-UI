@@ -23,3 +23,33 @@
 @import './components/buttons.css';
 @import './components/badge.css';
 @import './components/card.css';
+@import './components/image.css';
+@import './components/input.css';
+
+
+/* body */
+
+.main {
+	grid-area: body;
+}
+
+#alert {
+	scroll-margin-block: 6rem;
+}
+
+#buttons,
+#avatar,
+#badge,
+#cards,
+#image,
+#input {
+	scroll-margin-block: 3rem;
+}
+@media screen and (max-width:700px) {
+	body {
+		grid-template-areas:
+			" navHead"
+			" body"
+			" body";
+	}
+}
