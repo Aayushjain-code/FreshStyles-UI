@@ -17,15 +17,18 @@
 
 	--success-bg: #00ff73;
 	--success-text: #ffffff;
+	--success-text-badge: #00ff37;
 
 	--info-bg: #00aeff;
 	--info-text: #ffffff;
 
 	--warning-bg: #ffdd00;
 	--warning-text: hsl(0, 0%, 100%);
+	--warning-text-badge: hsl(59, 100%, 44%);
 
 	--error-bg: #f81500;
 	--error-text: #ffffff;
+	--error-text-badge: #ff0000;
 
 	--btn-hover: rgba(138, 138, 138, 0.2);
 }
