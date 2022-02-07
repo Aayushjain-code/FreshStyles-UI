@@ -1,0 +1,28 @@
+/* section */
+.install-section {
+	margin: 5rem;
+	padding: 3rem 0;
+}
+
+.install-heading {
+	color: var(--heading-color);
+}
+
+.install-text {
+	padding-top: 1rem;
+	letter-spacing: 1px;
+	line-height: 2.2rem;
+}
+
+.install-code {
+	font-size: 1.6rem;
+	line-height: 2.5rem;
+	width: 50%;
+}
+
+code {
+	max-width: 100%;
+	margin: 4rem 0;
+	font-size: 1.6rem;
+	border-radius: 1rem;
+}

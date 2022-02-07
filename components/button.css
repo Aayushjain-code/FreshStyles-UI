@@ -1,0 +1,200 @@
+.btn {
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* link button */
+.btn-link {
+    background-color: var(--white-color);
+    color: var(--primary-color2);
+}
+.btn-link:hover {
+    color: var(--primary-color);
+}
+.btn-link-underline {
+    background-color: var(--white-color);
+    color: var(--primary-color2);
+}
+.btn-link-underline:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+/* icon button */
+.btn-icon {
+    background-color: var(--white-color);
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    padding: 0.8rem;
+    color: var(--primary-color2);
+    font-size: 2rem;
+}
+.btn-icon:hover {
+    background-color: var(--box-shadow);
+    color: var(--primary-hover-color);
+}
+/* icon inside button */
+.btn-with-icon {
+    background-color: var(--primary-color2);
+    color: var(--white-color);
+}
+.btn-with-icon:hover {
+    background-color: var(--primary-hover-color);
+}
+/* floating button */
+.btn-floating {
+    border-radius: 50%;
+    background-color: var(--primary-color2);
+    color: var(--white-color);
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem;
+    box-shadow:0px 0px 5px var(--box-shadow);
+}
+.btn-floating:hover{
+    background-color: var(--primary-hover-color);
+}
+
+.btn-disabled{
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+
+
+/* buttons */
+.button {
+    min-width: 120px;
+    padding: 0.8rem 1rem;
+    margin: 14px;
+    margin-left: -2px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: var(--text-white);
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* || Different Button Colors */
+.btn-primary {
+    background-color: var(--info-color);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: var(--info-color);
+}
+
+.btn-success {
+    background-color: var(--success-color);
+}
+
+.btn-warning {
+    background-color: var(--warning-bg-color);
+}
+
+.btn-error {
+    background-color: var(--error-color);
+}
+
+/* Outline Button */
+.outline {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.outline-primary {
+    background-color: transparent;
+    color: var(--primary-dark-color);
+    border: 1px solid var(--info-color);
+}
+
+.outline-secondary {
+    background-color: transparent;
+    color: var(--info-bg);
+    border: 1px solid var(--info-color);
+}
+
+.outline-warning {
+    background-color: transparent;
+    color: var(--warning-bg);
+    border: 1px solid var(--warning-color);
+}
+
+.outline-success {
+    background-color: transparent;
+    color: var(--success-bg);
+    border: 1px solid var(--success-color);
+}
+
+.outline-error {
+    background-color: transparent;
+    color: var(--error-bg);
+    border: 1px solid var(--error-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* primary button */
+/* .btn-primary {
+    background-color: var(--primary-color2);
+    color: var(--white-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover-color);
+} */
+
+/* primary outline btn */
+/* .btn-primary-outline {
+    background-color: var(--white-color);
+    color: var(--primary-color2);
+    border: thin solid var(--primary-color2);
+}
+
+.btn-primary-outline:hover {
+    background-color: var(--primary-hover-color);
+    color: var(--white-color);
+} */
+
+/* secondary btn */
+/* .btn-secondary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--sec-hover-color);
+} */
+
+/* secondary outline btn */
+/* .btn-secondary-outline {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    border: thin solid var(--primary-color);
+}
+
+.btn-secondary-outline:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+} */

@@ -1,0 +1,182 @@
+@import url(./alert.css);
+@import url(./avatar.css);
+@import url(./badge.css);
+@import url(./button.css);
+@import url(./card.css);
+@import url(./image.css);
+@import url(./input.css);
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	color: var(--heading-color);
+}
+
+/* reset css */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* typography */
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3.5rem;
+}
+
+h3 {
+	font-size: 3rem;
+}
+
+h4 {
+	font-size: 2.5rem;
+}
+
+h5 {
+	font-size: 2rem;
+}
+
+h6 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+/* gutter */
+.p-right {
+	padding-right: 0.5rem;
+}
+
+.p-left {
+	padding-left: 0.5rem;
+}
+
+.p1-left {
+	padding-left: 1rem;
+}
+
+.p2-left {
+	padding-left: 2rem;
+}
+
+.p1-right {
+	padding-right: 1rem;
+}
+
+.p2-right {
+	padding-right: 2rem;
+}
+
+.p1 {
+	padding: 1rem;
+}
+
+.p2 {
+	padding: 2rem;
+}
+
+.m1 {
+	margin: 1rem;
+}
+
+.m2 {
+	margin: 2rem;
+}
+
+.m2-top-bottom {
+	margin: 2rem 0;
+}
+
+.m1-right {
+	margin-right: 1rem;
+}
+
+.m2-left {
+	margin-left: 2rem;
+}
+
+.m-left-auto {
+	margin-left: auto;
+}
+
+.m-right-auto {
+	margin-right: auto;
+}
+
+/* utils */
+.text-decor-none {
+	text-decoration: none;
+}
+
+.list-non-bullet {
+	list-style: none;
+}
+
+.flex-r {
+	display: flex;
+}
+
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-c {
+	display: flex;
+	flex-direction: column;
+}
+
+.align-center {
+	display: flex;
+	align-items: center;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.inline {
+	display: inline;
+}
+
+.hide {
+	display: none;
+}
+
+.unhide {
+	display: block;
+}
+
+#unhide {
+	display: block;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 55%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 40%;
+	}
+}

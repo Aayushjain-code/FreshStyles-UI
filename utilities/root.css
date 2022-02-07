@@ -1,34 +1,27 @@
+/* colors */
 :root {
-	--primary-light-color: #00db379d;
-	--primary-vlight-color: #56f17dc0;
-	--primary-color: #009b27;
-	--primary-dark-color: #004943;
-	--primary-bg: rgb(255, 235, 123);
+	--primary-color: #00b199;
+	--primary-color2: #060f0a;
+	--background-color: #f4f6fa;
+	--text-color: #000000;
+	--heading-color: #000000;
+	--box-shadow: #8f8f8f;
+	--white-color: #fff;
+	--black-color: black;
+	--light-grey-color: #f5f5f6;
 
-	--faint-gray: #f1f5f7;
-	--light-gray: #e8f0f2;
-	--medium-blue-gray: #b2d1c9;
-	--dark-blue-gray: #92bdab;
+	/* alerts */
+	--info-bg-color: #bbeeff;
+	--warning-bg-color: #feefb3;
+	--success-bg-color: #dff2bf;
+	--error-bg-color: #ffbaba;
 
-	--text-white: #fff;
-	--text-lighter: rgb(175, 175, 175);
-	--text-light: rgb(97, 97, 97);
-	--text-dark: rgb(0, 0, 0);
+	--info-color: #005599;
+	--warning-color: #a36708;
+	--success-color: #41e400;
+	--error-color: #df212b;
 
-	--success-bg: #00ff73;
-	--success-text: #ffffff;
-	--success-text-badge: #00ff37;
-
-	--info-bg: #00aeff;
-	--info-text: #ffffff;
-
-	--warning-bg: #ffdd00;
-	--warning-text: hsl(0, 0%, 100%);
-	--warning-text-badge: hsl(59, 100%, 44%);
-
-	--error-bg: #f81500;
-	--error-text: #ffffff;
-	--error-text-badge: #ff0000;
-
-	--btn-hover: rgba(138, 138, 138, 0.2);
+	/* button */
+	--primary-hover-color: #365a45;
+	--sec-hover-color: #52a14f;
 }

@@ -1,149 +1,66 @@
 .badge-container {
-	position: relative;
-	display: flex;
-	width: fit-content;
-	padding: 0.5rem;
+  position: relative;
+  display: inline-block;
+  /* margin: 1.6rem; */
+}
+.badge-icon {
+  font-size: 2.4rem;
+  color: var(--black-color);
+}
+.text-badge {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 0.4rem;
+  position: absolute;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  top: 1rem;
+  left: -2rem;
+  border-radius: 0.8rem;
+}
+.badge {
+  background-color: var(--primary-color2);
+  border: none;
+  border-radius: 50%;
+  color: var(--white-color);
+  cursor: default;
+  position: absolute;
+  text-align: center;
+}
+.img-badge {
+    border:medium solid var(--white-color);
+}
+/* badge alingment */
+.right-badge {
+    top: -0.7rem;
+    right: -0.7rem;
+}
+.left-badge {
+    top: -0.7rem;
+    left: -0.7rem;
+}
+.bottom-left-badge {
+    bottom: -0.3rem;
+    right: -0.3rem;
 }
 
-.status-badge {
-	position: absolute;
-	height: 1.2rem;
-	min-width: 1.2rem;
-	z-index: 0;
-	padding: 2px;
-	border-radius: 50%;
-	border: 2px solid white;
+/* badge-sizes */
+.lg-badge {
+  width: 2.6rem;
+  height: 2.6rem;
+  line-height: 2rem;
+  font-size: 1.6rem;
 }
-
-.badge-container .avatar-lg-round~.status-badge,
-.text-avatar-lg-round~.status-badge {
-	right: 1.8em;
-	bottom: 0.4em;
-	height: 1.6rem;
-	min-width: 1.6rem;
+.md-badge {
+  width: 2.2rem;
+  height: 2.2rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
 }
-
-.badge-container .text-avatar-md-round~.status-badge,
-.avatar-md-round~.status-badge {
-	right: 1em;
-	bottom: 0.8em;
-}
-
-.badge-container .avatar-sm-round~.status-badge,
-.text-avatar-sm-round~.status-badge {
-	right: 0.5em;
-	bottom: 0.2em;
-	height: 1rem;
-	min-width: 1rem;
-}
-
-.badge-container .avatar-xsm-round~.status-badge,
-.text-avatar-xsm-round~.status-badge {
-	right: 0.3em;
-	bottom: 0.3em;
-	height: 0.7rem;
-	min-width: 0.7rem;
-}
-
-.status-offline {
-	background-color: var(--error-text);
-}
-
-.status-online {
-	background-color: var(--success-text);
-}
-
-.status-away {
-	background-color: var(--warning-text);
-}
-
-.badge-text {
-	padding: 0.3rem 0.2rem;
-}
-
-.badge-on-text,
-.badge-on-icon,
-.badge-on-btn {
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: var(--text-white);
-	background-color: var(--primary-color);
-	min-height: 1.3em;
-	min-width: 1.3em;
-	font-weight: 400;
-	z-index: 0;
-}
-
-.badge-on-text {
-	top: -0.3em;
-	right: -0.7em;
-	border-radius: 50%;
-}
-
-.badge-round {
-	border-radius: 50%;
-}
-
-.badge-square {
-	border-radius: 4px;
-	padding: 0 0.2em;
-}
-
-.badge-on-icon {
-	font-size: 0.65em;
-	top: 0.2em;
-	right: 0.4em;
-	padding: 0.2em 0.3em;
-	border-radius: 20px;
-}
-
-.badge-on-btn {
-	font-size: 0.9em;
-	top: 0.3em;
-	right: 0.5em;
-	border-radius: 50%;
-}
-
-.badge-on-card {
-	position: absolute;
-	height: 1.6rem;
-	min-width: 2.7rem;
-	display: flex;
-	align-items: center;
-}
-
-.top-left {
-	left: 0;
-	top: 0;
-	border-radius: 0 0 10px 0;
-}
-
-.top-right {
-	right: 0;
-	top: 0;
-	border-radius: 0 0 0 10px;
-}
-
-.badge-on-card h2 {
-	font-size: 0.8rem;
-	padding: 0.5em;
-	font-weight: 500;
-}
-
-.card-light .badge-on-card {
-	background-color: var(--primary-color);
-}
-
-.card-light .badge-on-card h2 {
-	color: var(--text-white);
-}
-
-.card-dark .badge-on-card {
-	background-color: var(--primary-bg);
-}
-
-.card-dark .badge-on-card h2 {
-	color: var(--primary-color);
+.sm-badge {
+  width: 1.6rem;
+  height: 1.6rem;
+  line-height: 1.6rem;
+  font-size: 1rem;
 }
