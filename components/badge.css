@@ -12,12 +12,12 @@
   color: var(--white-color);
   padding: 0.4rem;
   position: absolute;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   letter-spacing: 1px;
-  top: 1rem;
+  top: 0.5rem;
   left: -2rem;
-  border-radius: 0.8rem;
+  border-radius: 0.4rem;
 }
 .badge {
   background-color: var(--primary-color2);

@@ -1,6 +1,6 @@
 .card {
     background-color: var(--background-color);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     position: relative;
     box-shadow: 0 0 1rem var(--box-shadow);
 }
