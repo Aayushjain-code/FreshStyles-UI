@@ -2,10 +2,10 @@
 
 .sidebar {
 	width: 25%;
-	height: 82vh;
+	height: 102vh;
 	overflow-y: scroll;
 	position: sticky;
-	top: 9rem;
+	top: 19rem;
 	font-size: 1.6rem;
 	padding: 0 1rem;
 }
