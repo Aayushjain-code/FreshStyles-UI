@@ -127,11 +127,11 @@ code {
 /* sidebar */
 
 .sidebar {
-	width: 20%;
+	width: 25%;
 	height: 82vh;
 	overflow-y: scroll;
 	position: sticky;
-	top: 8.5rem;
+	top: 10rem;
 	font-size: 1.6rem;
 	padding: 0 1rem;
 }
@@ -150,7 +150,7 @@ code {
 }
 
 .doc-content {
-	width: 80%;
+	width: 70%;
 	padding: 5rem;
 }
 
