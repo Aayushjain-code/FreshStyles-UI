@@ -49,6 +49,7 @@
             <li class="p1"><a class="link text-decor-none" href="#list">Lists</a></li>
             <li class="p1"><a class="link text-decor-none" href="#snackbar">Snackbar</a></li>
             <li class="p1"><a class="link text-decor-none" href="#slider">Slider</a></li>
+            <li class="p1"><a class="link text-decor-none" href="#modal">Modal</a></li>
         </ul>
     </aside>
 
@@ -71,6 +72,7 @@
                 <li class="p1"><a class="link text-decor-none" href="#list">Lists</a></li>
                 <li class="p1"><a class="link text-decor-none" href="#snackbar">Snackbar</a></li>
                 <li class="p1"><a class="link text-decor-none" href="#slider">Slider</a></li>
+                <li class="p1"><a class="link text-decor-none" href="#modal">Modal</a></li>
 
             </ul>
         </aside>
@@ -82,26 +84,35 @@
             <section id="Alert">
                 <h2 class="component-heading">Alerts</h2>
                 <h5 class="component-subheading">Primary alert</h5>
-                <div class="alert primary-alert"> <i class="alert-icon fas fa-info-circle"></i> This is a primary alert.
-                </div>
-                <div class="alert info-alert"> <i class="alert-icon fas fa-info-circle"></i> This is an info message.
-                </div>
-                <div class="alert success-alert"> <i class="alert-icon fas fa-check"></i> This is a success message.
-                </div>
-                <div class="alert warning-alert"> <i class="alert-icon fas fa-exclamation-triangle"></i> This is a
-                    warning message.
-                </div>
-                <div class="alert error-alert"> <i class="alert-icon fas fa-times-circle"></i> This is a error message.
+                <div class="heading-cont m1 form">
+
+                    <div class="alert primary-alert"> <i class="alert-icon fas fa-info-circle"></i> This is a primary
+                        alert.
+                    </div>
+                    <div class="alert info-alert"> <i class="alert-icon fas fa-info-circle"></i> This is an info
+                        message.
+                    </div>
+                    <div class="alert success-alert"> <i class="alert-icon fas fa-check"></i> This is a success message.
+                    </div>
+                    <div class="alert warning-alert"> <i class="alert-icon fas fa-exclamation-triangle"></i> This is a
+                        warning message.
+                    </div>
+                    <div class="alert error-alert"> <i class="alert-icon fas fa-times-circle"></i> This is a error
+                        message.
+                    </div>
                 </div>
 
                 <h5 class="component-subheading">Alert with close button</h5>
-                <div class="alert primary-alert align-center">
-                    <i class="alert-icon p-right fas fa-info-circle"></i> This is a primary alert.
-                    <i class="alert-close-icon far fa-times-circle"></i>
-                </div>
-                <div class="alert error-alert align-center">
-                    <i class="alert-icon p-right fas fa-info-circle"></i>This is a error message
-                    <i class="alert-close-icon far fa-times-circle"></i>
+                <div class="heading-cont m1 form">
+
+                    <div class="alert primary-alert align-center">
+                        <i class="alert-icon p-right fas fa-info-circle"></i> This is a primary alert.
+                        <i class="alert-close-icon far fa-times-circle"></i>
+                    </div>
+                    <div class="alert error-alert align-center">
+                        <i class="alert-icon p-right fas fa-info-circle"></i>This is a error message
+                        <i class="alert-close-icon far fa-times-circle"></i>
+                    </div>
                 </div>
             </section>
 
@@ -216,42 +227,58 @@
                 <p class="component-desc">Buttons are also called as call to action. We have range of buttons . You need
                     to add respective classes, and you are good to go.</p>
                 <h5 class="component-subheading">Solid Buttons</h5>
-
-                <button class="button">DEFAULT</button>
-                <button class="button btn-secondary">SECONDARY</button>
-                <button class="button btn-success">SUCCESS</button>
-                <button class="button btn-warning">WARNING</button>
-                <button class="button btn-error">ERROR</button>
+                <div class="heading-cont m1 form" style="flex-direction: row;">
+                    <button class="button">DEFAULT</button>
+                    <button class="button btn-secondary">SECONDARY</button>
+                    <button class="button btn-success">SUCCESS</button>
+                    <button class="button btn-warning">WARNING</button>
+                    <button class="button btn-error">ERROR</button>
+                </div>
                 <hr>
-
                 <h5 class="component-subheading">Outlined Buttons</h5>
-                <button class="button outline">DEFAULT</button>
-                <button class="button outline-secondary">SECONDARY</button>
-                <button class="button outline-success">SUCCESS</button>
-                <button class="button outline-warning">WARNING</button>
-                <button class="button outline-error">ERROR</button>
+                <div class="heading-cont m1 form" style="flex-direction: row;">
+                    <button class="button outline">DEFAULT</button>
+                    <button class="button outline-secondary">SECONDARY</button>
+                    <button class="button outline-success">SUCCESS</button>
+                    <button class="button outline-warning">WARNING</button>
+                    <button class="button outline-error">ERROR</button>
+
+                </div>
                 <hr>
 
                 <h5 class="component-subheading">Link Buttons</h5>
-                <button class="m1 btn btn-link">Link Button</button>
-                <button class="m1 btn btn-link-underline">Link Button</button>
+                <div class="heading-cont m1 form" style="flex-direction: row;">
+                    <button class="m1 btn btn-link">Link Button</button>
+                    <button class="m1 btn btn-link-underline">Link Button</button>
+                </div>
 
                 <hr>
                 <h5 class="component-subheading">Icon Buttons</h5>
-                <button class="m1 btn btn-icon"><i class="fas fa-shopping-cart"></i></button>
-                <button class="m1 btn btn-with-icon"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
+                <div class="heading-cont m1 form" style="flex-direction: row;">
+
+                    <button class="m1 btn btn-icon"><i class="fas fa-shopping-cart"></i></button>
+                    <button class="m1 btn btn-with-icon"><i class="p1-right fas fa-shopping-cart"></i>Add to
+                        cart</button>
+                </div>
                 <pre></pre>
                 <hr>
 
                 <h5 class="component-subheading">Floating Buttons</h5>
-                <button class="m1 btn btn-floating"><i class="fas fa-plus"></i></button>
+                <div class="heading-cont m1 form" style="flex-direction: row;">
+                    <button class="m1 btn btn-floating"><i class="fas fa-plus"></i></button>
+                    <button class="m1 btn btn-floating"><i class="fas fa-home"></i></button>
+                    <button class="m1 btn btn-floating"><i class="fab fa-github"></i></button>
+                </div>
                 <pre></pre>
                 <hr>
 
                 <h5 class="component-subheading">Disabled Buttons</h5>
-                <button class="m1 btn btn-primary btn-disabled">Primary Button</button>
-                <button class="m1 btn btn-link-underline btn-disabled">Link Button</button>
-                <button class="m1 btn btn-icon btn-disabled"><i class="fas fa-shopping-cart"></i></button>
+                <div class="heading-cont m1 form" style="flex-direction: row;">
+
+                    <button class="m1 btn btn-primary btn-disabled">Primary Button</button>
+                    <button class="m1 btn btn-link-underline btn-disabled">Link Button</button>
+                    <button class="m1 btn btn-icon btn-disabled"><i class="fas fa-shopping-cart"></i></button>
+                </div>
                 <pre></pre>
                 <hr>
             </section>
@@ -520,7 +547,7 @@
                     legible, readable and appealing when
                     displayed. </p>
                 <h5 class="component-subheading">Headings</h5>
-                <div class="heading-cont">
+                <div class="heading-cont m1 form">
                     <h1>Heading 1</h1>
                     <h2>Heading 2</h2>
                     <h3>Heading 3</h3>
@@ -543,7 +570,7 @@
                 <p class="component-desc">Lists can be used at so many places, navigation bar, stacked notifications,
                     article pages, etc. </p>
                 <h5 class="component-subheading">Spaced List Items</h5>
-                <div class="heading-cont">
+                <div class="heading-cont m1 form">
                     <ul class="spaced-list-item-group">
                         <li class="spaced-list-item">List Item1</li>
                         <li class="spaced-list-item">List Item2</li>
@@ -556,7 +583,7 @@
 
                 <h5 class="component-subheading">Stacked List Items</h5>
                 <p class="component-desc"></p>
-                <div class="heading-cont">
+                <div class="heading-cont m1 form">
                     <div class="stacked-list-group" style="width:23rem ;max-width: 90%;">
                         <div class="stacked-item">
                             <div class="img-margin">
@@ -590,7 +617,7 @@
                 <p class="component-desc">This component can be used for toast or snackbar component. Toast is mostly
                     used to show feedback message. Snackbar is
                     to used show message that need user action </p>
-                <div class="heading-cont" style="margin-top: 2rem;">
+                <div class="heading-cont m1 form" style="margin-top: 2rem;">
                     <div class="snackbar">Saved to wishlist <i class="fas fa-times snack"></i></div>
                     <div class="snackbar snackbar-blue">Saved to wishlist <i class="fas fa-times snack"></i></div>
                     <div class="snackbar snackbar-red">Saved to wishlist<i class="fas fa-times snack"></i></div>
@@ -607,7 +634,7 @@
                 <p class="component-desc">This component can be used for toast or snackbar component. Toast is mostly
                     used to show feedback message. Snackbar is
                     to used show message that need user action </p>
-                <div class="heading-cont" style="margin-top: 2rem;">
+                <div class="heading-cont m1 form" style="margin-top: 2rem;">
 
                     <p class="component-desc">Default range slider:</p>
                     <input type="range" min="1" max="100" value="50">
@@ -620,7 +647,35 @@
                 <pre></pre>
                 <hr>
             </section>
+            <!-- Modal Components -->
+            <section id="modal">
+                <h2 class="component-heading">Modal</h2>
+                <p class="component-desc">Open/Close modal </p>
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtn" class="button">Open/Close modal</button>
 
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Modal Header</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Some text in the Modal Body</p>
+                            <p>Some other text...</p>
+                        </div>
+                        <div class="modal-footer">
+                            <h3>Modal Footer</h3>
+                        </div>
+                    </div>
+
+                </div>
+                <pre></pre>
+                <hr>
+            </section>
 
 
 
