@@ -1,4 +1,4 @@
-
+<img src="https://github.com/Aayushjain-code/FreshStyles-UI/blob/main/sss1%20(1).png">
 
 <h1>FreshStyles-UI</h1>
 <p>Feel the freshness and styles....... </p>
@@ -16,7 +16,7 @@ To get started with FreshStyles-U, copy the code and paste it in the head tag of
 ```html
     <link rel="stylesheet" href="https://freshstyleui.netlify.app/styles.css">
 ```  
-
+<img src="https://github.com/Aayushjain-code/FreshStyles-UI/blob/main/sss1%20(2).png">
 # Components Included
 
 
