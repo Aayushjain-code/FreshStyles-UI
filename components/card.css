@@ -62,7 +62,7 @@
 }
 
 .card-btns {
-    padding: 3rem 0 0;
+    padding: 0.5rem 0 0;
 }
 
 .card-icon-btn {
@@ -96,7 +96,7 @@
     align-items: flex-start;
 }
 
-/* category */
+/* Category-Cards */
 .category .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
