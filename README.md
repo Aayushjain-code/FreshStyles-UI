@@ -1,5 +1,10 @@
 <img src="https://github.com/Aayushjain-code/FreshStyles-UI/blob/main/sss1%20(1).png">
 
+
+
+https://user-images.githubusercontent.com/75216351/155000329-525d00a9-d895-43f9-80d0-b9a0d86a0424.mp4
+
+
 <h1>FreshStyles-UI</h1>
 <p>Feel the freshness and styles....... </p>
   
