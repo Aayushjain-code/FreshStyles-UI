@@ -1,0 +1,17 @@
+/* footer */
+.footer {
+	background-color: var(--primary-color2);
+	color: var(--white-color);
+	text-align: center;
+	padding: 3rem;
+}
+
+.footer-icons {
+	color: var(--white-color);
+	display: inline;
+	font-size: 2.4rem;
+}
+
+.red-color {
+	color: var(--error-color);
+}

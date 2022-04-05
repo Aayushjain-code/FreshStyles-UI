@@ -1,0 +1,41 @@
+/** Snackbar **/
+.snackbar {
+	background-color: #374151;
+	color: var(--white-color);
+	padding: 0.8rem;
+	border-radius: 2px;
+	width: 30rem;
+	height: 4rem;
+	font-size: 2rem;
+}
+.snackbar-red{
+	background-color: #e53935;
+}
+.snackbar-green{
+	background-color: #43a047;
+}
+.snackbar-blue{
+	background-color: #1e88e5;
+}
+.snackbar-yellow{
+	background-color: #fbc02d;
+}
+
+.snackbar-bottom-left {
+	position: fixed;
+	bottom: 0.5rem;
+	left: 0.5rem;
+}
+
+.snackbar-top-right {
+	position: fixed;
+	top: 4rem;
+	right: 0.5rem;
+}
+.snack{
+	display: flex;
+	align-items: center;
+	margin-top: 3px;
+	margin-right: 5px;
+	float:right;
+}

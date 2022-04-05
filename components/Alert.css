@@ -1,102 +1,40 @@
-.alert-success,
-.alert-des-success,
-.alert-success-btn,
-.alert-info,
-.alert-des-info,
-.alert-info-btn,
-.alert-warning,
-.alert-des-warning,
-.alert-warning-btn,
-.alert-error,
-.alert-des-error,
-.alert-error-btn {
-	display: flex;
-	align-content: center;
-	align-items: center;
-	max-width: 34rem;
-	border-radius: 4px;
-	border:1px solid black;
-	margin: 1rem;
-	padding: 0.6rem 0.6rem 0.6rem 0.8rem;
+.alert {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0.7rem 0;
+    padding: 1.6rem;
+    width: 70rem;
 }
-
-.alert-success,
-.alert-des-success,
-.alert-success-btn {
-	background-color: var(--success-bg);
-	color: var(--success-text);
+.primary-alert {
+    background-color: var(--primary-color);
+    color: var(--primary-color2);
 }
-
-.alert-info,
-.alert-des-info,
-.alert-info-btn {
-	background-color: var(--info-bg);
-	color: var(--info-text);
+.info-alert {
+    background-color: var(--info-bg-color) ;
+    color: var(--info-color);
 }
-
-.alert-warning,
-.alert-des-warning,
-.alert-warning-btn {
-	background-color: var(--warning-bg);
-	color: var(--warning-text);
+.success-alert {
+    background-color: var(--success-bg-color);
+    color: var(--success-color);
 }
-
-.alert-error,
-.alert-des-error,
-.alert-error-btn {
-	background-color: var(--error-bg);
-	color: var(--error-text);
+.warning-alert {
+    background-color:var(--warning-bg-color);
+    color: var(--warning-color);
 }
-
-.alert-des-success,
-.alert-des-info,
-.alert-des-warning,
-.alert-des-error {
-	display: flex;
-	align-items: baseline;
+.error-alert {
+    background-color: var(--error-bg-color);
+    color: var(--error-color);
 }
-
-.alert-success-btn,
-.alert-warning-btn,
-.alert-info-btn,
-.alert-error-btn
- {
-	display: flex;
-	align-content: center;
-	align-items: center;
-	justify-content: space-between;
+.alert-close-icon {
+    font-weight: 600;
+    margin-left: auto;
+    cursor: pointer;
 }
-
-/* .alert-text {
-	align-self: center;
-} */
-
-.alert-close,
-.undo {
-	color: var(--text-light);
-	cursor: pointer;
-}
-
-.alert-close {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	padding: 0.4rem;
-}
-
-.undo:hover {
-	border-radius: 4px;
-}
-
-.alert-close:hover,
-.undo:hover {
-	background-color: var(--btn-hover);
-
-}
-
-.alert-icon {
-	margin-right: 0.7rem;
-	margin-left: 0.2rem;
-	font-size: 24px;
+.alert-icon{
+    margin-right: 1.6rem;
+    font-size: 26px;
 }

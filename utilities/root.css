@@ -1,31 +1,27 @@
+/* colors */
 :root {
-	--primary-light-color: #00db379d;
-	--primary-vlight-color: #56f17dc0;
-	--primary-color: #009b27;
-	--primary-dark-color: #004943;
-	--primary-bg: rgb(255, 235, 123);
+	--primary-color: #41E400;
+	--primary-color2: #060f0a;
+	--background-color: #ffffff;
+	--text-color: #000000;
+	--heading-color: #000000;
+	--box-shadow: #8f8f8f;
+	--white-color: #fff;
+	--black-color: black;
+	--light-grey-color: #f5f5f6;
 
-	--faint-gray: #f1f5f7;
-	--light-gray: #e8f0f2;
-	--medium-blue-gray: #b2d1c9;
-	--dark-blue-gray: #92bdab;
+	/* alerts */
+	--info-bg-color: #bbeeff;
+	--warning-bg-color: #feefb3;
+	--success-bg-color: #dff2bf;
+	--error-bg-color: #ffbaba;
 
-	--text-white: #fff;
-	--text-lighter: rgb(175, 175, 175);
-	--text-light: #777;
-	--text-dark: #333;
+	--info-color: #005599;
+	--warning-color: #a36708;
+	--success-color: #41e400;
+	--error-color: #df212b;
 
-	--success-bg: #e8fcf1;
-	--success-text: #005525;
-
-	--info-bg: #e6f7ff;
-	--info-text: #44abcb;
-
-	--warning-bg: #fefbe6;
-	--warning-text: hsl(40, 100%, 50%);
-
-	--error-bg: #fef2f1;
-	--error-text: #ff0000;
-
-	--btn-hover: rgba(138, 138, 138, 0.2);
+	/* button */
+	--primary-hover-color: #365a45;
+	--sec-hover-color: #52a14f;
 }

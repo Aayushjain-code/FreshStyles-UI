@@ -2,239 +2,88 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-	<title>FreshStyles-UI</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>FreshStyle-UI</title>
 </head>
 
 <body>
 
-	<!-- horizontal Nav-bar -->
-	<div class="navHead cont-shadow">
-		<a href="/">
-			<div class="logo title-xxl mg-2-lt">FreshStyles-UI</div>
-		</a>
-		<span class="nav-text">Feel The Freshness...</span>
-		<div class="connect">
-			<i class="fab fa-github fa-lg">
-				<a href="/"></a>
-			</i>
-			<i class="fab fa-linkedin fa-lg">
-				<a href="/"></a>
-			</i>
-			<i class="fab fa-twitter-square fa-lg">
-				<a href="/"></a>
-			</i>
-		</div>
+    <!-- Navbar -->
+    <nav class="flex-r navigation-container">
+        <div class="m1 p2 nav-logo flex-r landing-heading">
+            FreshStyle-UI
+        </div>
+        <ul class="m1 p1 nav-pills list-non-bullet align-center">
+            <li class="p1"><a class="link text-decor-none" href="./index.html">Home</a></li>
+            <li class="p1"><a class="link text-decor-none" href="./docs.html">Documentation</a></li>
+            <li class="p1"><a class="link nav-icon" href="https://github.com/Aayushjain-code"><i
+                        class="fab fa-github"></i></a></li>
+            <li class="p1"><a class="link nav-icon" href="https://twitter.com/the_aayush_jain"><i
+                        class="fab fa-twitter"></i></a></li>
+            <li class="p1"><a class="link nav-icon" href="https://www.linkedin.com/in/aayush-jain-code/"><i
+                        class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </nav>
 
-	</div>
+    <!-- Header -->
+    <header class="flex-r landing-header">
+        <div class="landing-text">
+            <h1 class="landing-heading">Build Your Custom UI.</h1>
+            <p class="landing-para">A free Component Library build using CSS that provides ready-to-use frontend
+                components and powerful utility classes that you can easily combine to build beautiful websites.</p>
+            <div class="landing-btns">
+                <a href="#installation"><button class="m1-right btn btn-secondary-outline">Installation</button></a>
+                <a href="docs.html"><button class="btn btn-success">Documentation</button></a>
+            </div>
+        </div>
+        <img class="landing-img"
+           src="https://cdn.dribbble.com/users/1262105/screenshots/15716022/media/e5590d5c23611c6635933bf13ee19988.gif" alt="FreshStyle-UI">
 
-	<!-- nav verticle bar -->
-	<nav class="nav mg-2-lr mg-1-top">
-		<h1 class="title-lg pd-point8-lt nav-sub-head">
-			Components
-		</h1>
-		<a href="#avatar">
-			<button class="btn secondary-text-btn-lg-nav">
-				Avatar</button>
-		</a>
-		<a href="#alert">
-			<button class="btn secondary-text-btn-lg-nav">
-				Alert</button>
-		</a>
+    </header>
 
-	</nav>
-
-
-	<!-- body -->
-
-	<div class="main-container main ">
-
-		<!-- alerts -->
-		<div id="avatar" class="pd-1-lr pd-1-bot">
-			<h1 class="mg-point8-tb ">
-				<div class="sub-head">
-					Avatar
-				</div>
-			</h1>
-			<p>
-				An avatar is a graphical representation of a user or the user's character or persona. Aspernatur esse
-				libero, enim iure numquam consequatur tempore officiis nesciunt nobis possimus illo fugit repellendus
-				ducimus laboriosam maxime beatae nostrum placeat! Numquam!
-			</p>
-			<!-- avatar as images -->
-			<h2 class="mg-2-top mg-point6-bot title-lg">
-				Image Avatar
-			</h2>
-			<div class="component-container pd-1-all mg-1-bot cont-shadow">
-				<div class="avatar-round mg-1-tb mg-2-lr">
-					<div class="avatar avatar-xsm">
-						<img src="https://picsum.photos/id/1074/500/500" class="img-responsive img-round" alt="">
-					</div>
-					<div class="avatar avatar-sm">
-						<img src="https://picsum.photos/id/1074/500/500" class="img-responsive img-round" alt="">
-					</div>
-					<div class="avatar avatar-md">
-						<img src="https://picsum.photos/id/1074/500/500" class="img-responsive img-round" alt="">
-					</div>
-					<div class="avatar avatar-lg">
-						<img src="https://picsum.photos/id/1074/500/500" class="img-responsive img-round" alt="">
-					</div>
-				</div><br>
-			</div>
-
-			<h2 class="mg-2-top mg-point6-bot title-lg">
-				Text Avatar
-
-			</h2>
-			<div class="component-container pd-1-all mg-1-bot cont-shadow">
-				<div class="avatar-round mg-1-tb mg-2-lr">
-					<div class="avatar avatar-xsm avatar-text img-round">
-						A
-					</div>
-					<div class="avatar avatar-sm avatar-text img-round">
-						A
-					</div>
-					<div class="avatar avatar-md avatar-text img-round">
-						A
-					</div>
-					<div class="avatar avatar-lg avatar-text img-round">
-						A
-					</div>
-
-				</div>
-			</div>
-		</div>
-		<hr />
-		<!-- alerts -->
-		<div id="alert" class="pd-1-lr pd-1-bot">
-			<h1 class="mg-point8-tb">
-				<div class="sub-head">
-					Alert
-				</div>
-			</h1>
-			<p>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia dolores culpa temporibus corrupti optio,
-				eius quas illum voluptas nisi inventore.
-			</p>
-			<!-- alert without close -->
-			<h2 id="basic-alert" class="mg-2-top mg-point6-bot title-lg">
-				Simple alerts
-			</h2>
-
-			<div class="container-lg cont-shadow pd-point6-all mg-point8-tb">
-
-				<div class="alert-success">
-					<i class="fas fa-check-circle alert-icon"></i>
-					<span class="p-lg">Success alert.</span>
-				</div>
-
-				<div class="alert-info">
-					<i class="fas fa-info-circle alert-icon"></i>
-					<span class="p-lg">Info alert.</span>
-				</div>
-
-				<div class="alert-warning">
-					<i class="fas fa-exclamation-triangle alert-icon"></i>
-					<span class="p-lg">Warning alert.</span>
-				</div>
-
-				<div class="alert-error">
-					<i class="fas fa-exclamation-circle alert-icon"></i>
-					<span class="p-lg">Error alert.</span>
-				</div>
-
-			</div>
-
-			<h2 class="mg-2-top title-lg">Descriptive alerts</h2>
-			<div class="container-lg cont-shadow pd-point6-all mg-point8-tb">
-
-				<div class="alert-des-success">
-					<i class="fas fa-check-circle alert-icon"></i>
-					<div>
-						<p>Success</p>
-						<p class="p-md">
-							This is a success alert - <button class="btn secondary-text-btn-sm">
-								check it out!
-							</button>
-						</p>
-					</div>
-				</div>
-
-				<div class="alert-des-info">
-					<i class="fas fa-info-circle alert-icon"></i>
-					<div>
-						<p>Info</p>
-						<p class="p-md">
-							This is a info alert - <button class="btn secondary-text-btn-sm">
-								check it out!
-							</button>
-						</p>
-					</div>
-				</div>
-
-				<div class="alert-des-warning">
-					<i class="fas fa-exclamation-triangle alert-icon"></i>
-					<div>
-						<p>Warning</p>
-						<p class="p-md">
-							This is a warning alert - <button class="btn secondary-text-btn-sm">
-								check it out!
-							</button>
-						</p>
-					</div>
-				</div>
-
-				<div class="alert-des-error">
-					<i class="fas fa-exclamation-circle alert-icon"></i>
-					<div class="alert-w-btn-text">
-						<p>Error</p>
-						<p class="p-md">
-							This is a error alert - <button class="btn secondary-text-btn-sm">
-								check it out!
-							</button>
-						</p>
-					</div>
-				</div>
-
-			</div>
-
-			<h2 class="title-lg mg-1-rt">Alert with actions</h2>
-
-			<div class="container-lg cont-shadow pd-point6-all mg-point8-tb">
-
-				<div class="alert-success-btn">
-					<div class="alert-text">
-						<i class="fas fa-check-circle alert-icon"></i>
-						<span class="p-md">Success alert.</span>
-					</div>
-					<div class="alert-close">
-						<i class="fas fa-times-circle"></i>
-					</div>
-				</div>
-
-				<div class="alert-warning-btn">
-					<div class="alert-text">
-						<i class="fas fa-exclamation-triangle alert-icon"></i>
-						<span class="p-md">Warning alert.</span>
-					</div>
-					<div class="undo">
-						<button class="btn secondary-text-btn-sm">Check Out</button>
-					</div>
-				</div>
-			</div>
-			<hr />
-		</div>
+    <!-- Installation section -->
+    <section id="installation" class="align-center install-section">
+        <div>
+            <h3 class="install-heading">Installation</h3>
+            <p class="install-text">Copy and paste the code in the head tag of your html document. So that you can style
+                your components by just adding class names to your html elements.<br><br>To know about the styled
+                components, their variations, read the documentation.</p>
+            <a href="docs.html"><button class="btn btn-success m2-top-bottom">Documentation</button></a>
+        </div>
+        <div class="m2-left install-code">
+            <pre>
+            <code class="html">
+    <!-- Installation Link -->
+    <link rel="stylesheet" href="https://freshstyleui.netlify.app/styles.css">
+            </code>
+        </pre>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with <i class="red-color fas fa-heart"></i> by Aayush Jain </p>
+        <ul class="m2 list-non-bullet">
+            <li class="p1 inline"><a class="footer-icons" href="https://github.com/Aayushjain-code"><i
+                        class="fab fa-github"></i></a></li>
+            <li class="p1 inline"><a class="footer-icons" href="https://twitter.com/the_aayush_jain"><i
+                        class="fab fa-twitter"></i></a></li>
+            <li class="p1 inline"><a class="footer-icons" href="https://www.linkedin.com/in/aayush-jain-code/"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+        <div>© copyright 2022 FreshStyle-UI</div>
+    </footer>
 
 
-
-	</div>
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,67 @@
+@import url(./typo.css);
+@import url(./gutter.css);
+@import url(./root.css);
+
+
+/* utils */
+.text-decor-none {
+	text-decoration: none;
+}
+
+.list-non-bullet {
+	list-style: none;
+}
+
+.flex-r {
+	display: flex;
+}
+
+.flex-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-c {
+	display: flex;
+	flex-direction: column;
+}
+
+.align-center {
+	display: flex;
+	align-items: center;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.inline {
+	display: inline;
+}
+
+.hide {
+	display: none;
+}
+
+.unhide {
+	display: block;
+}
+
+#unhide {
+	display: block;
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+	html {
+		font-size: 55%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	html {
+		font-size: 40%;
+	}
+}

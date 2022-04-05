@@ -1,0 +1,40 @@
+.navigation-container {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background-color: var(--white-color);
+	font-size: 1.6rem;
+	box-shadow: 0 0px 5px var(--box-shadow);
+	width: 100%;
+}
+
+.UI {
+	color: var(--primary-color);
+}
+
+.nav-logo {
+	margin-right: auto;
+}
+
+.ui-icon {
+	color: var(--primary-color);
+	font-size: 4rem;
+}
+
+.ui-name {
+	font-size: 3.2rem;
+}
+
+.link {
+	color: var(--black-color);
+	padding: 0 0.8rem;
+	font-weight: 500;
+}
+
+.nav-icon {
+	font-size: 2.2rem;
+}
+
+.link:hover {
+	color: var(--primary-color);
+}

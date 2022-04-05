@@ -1,0 +1,35 @@
+.star-container{
+	background-color:var(--box-shadow);
+	border-radius:0.5rem;
+	padding: 2rem;
+	display: inline-block;
+	border: #ffb400 solid 0.5rem;
+	margin-top: 1rem;
+}
+
+.star-container h4{
+	display: inline;
+}
+.rating-star-icon {
+	color: rgba(0, 0, 0, 0.26);
+	font-size: 2rem;
+}
+
+.star-input:enabled .rating-star-icon {
+	cursor: pointer;
+}
+
+.star-input:enabled+.rating-star-icon:hover {
+	color: #ffd675;
+}
+
+.star-input {
+	width: 0;
+	margin: 0;
+	height: 0;
+	opacity: 0;
+}
+
+.star-input:checked+.rating-star-icon {
+	color: #ffb400;
+}

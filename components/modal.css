@@ -1,0 +1,58 @@
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 25rem;
+	top: 23rem;
+	width: 90%;
+}
+.modal-content {
+	position: relative;
+	background-color: var(--background-color);
+	margin: auto;
+	width: 40%;
+}
+
+/* The Close Button */
+.close {
+	color: white;
+	float: right;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-header {
+	border-radius: 2rem;
+	padding: 1px 16px;
+	background-color:var(--primary-color);
+	color: white;
+}
+.modal-header h2 {
+	background-color: var(--primary-color);
+	color: white;
+	font-size: 22px;
+}
+
+.modal-body {
+	padding: 15px 32px;
+	height: 10rem;
+}
+
+.modal-footer {
+	padding: 1px 16px;
+	background-color:var(--primary-color);
+	color: white;
+}
+.modal-footer h3 {
+		background-color: var(--primary-color);
+		color: white;
+		font-size: 22px;
+}

@@ -1,0 +1,97 @@
+/* sidebar */
+
+.sidebar {
+	width: 25%;
+	height: 92vh;
+	overflow-y: scroll;
+	position: sticky;
+	top: 19rem;
+	font-size: 1.6rem;
+	padding: 0 1rem;
+}
+
+.sidebar::-webkit-scrollbar {
+	display: none;
+}
+
+.sidebar-heading {
+	margin-bottom: 1rem;
+	padding: 1.2rem 0;
+	color: var(--heading-color);
+	font-size: 2.2rem;
+	font-weight: 600;
+	border-bottom: thin solid;
+}
+
+.doc-content {
+	width: 70%;
+	padding: 5rem;
+}
+
+.component-heading {
+	margin-top: 5rem;
+	padding: 0.8rem 0;
+}
+
+.component-desc {
+	font-size: 1.8rem;
+}
+
+.component-subheading {
+	padding-top: 2rem;
+	padding-bottom: 1.4rem;
+	color: var(--black-color);
+}
+
+.bar-icon {
+	color: var(--black-color);
+	font-size: 3rem;
+	padding: 3.8rem 0 0 3rem;
+	display: none;
+}
+
+.mobile-sidebar {
+	height: 90vh;
+	overflow-y: scroll;
+	top: 9rem;
+	font-size: 1.6rem;
+	padding: 0 1rem;
+	width: 40%;
+	position: fixed;
+	z-index: 9;
+	background-color: var(--white-color);
+}
+
+.mobile-sidebar::-webkit-scrollbar {
+	display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+	.nav-icon {
+		display: none;
+	}
+
+	.landing-header,
+	.install-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sidebar {
+		display: none;
+	}
+
+	#bar-icon {
+		display: block;
+	}
+
+	.doc-content {
+		min-width: 100%;
+	}
+
+	.install-code {
+		min-width: 100%;
+	}
+}
