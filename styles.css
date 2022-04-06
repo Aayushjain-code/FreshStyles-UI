@@ -35,9 +35,11 @@
 
 .link {
 	background-color: var(--primary-color);
-	border-radius: 2rem 15rem 2rem;
 	color: var(--black-color);
-	padding: 0.5rem 0.8rem;
+	border-radius: 8rem 5rem 4rem;
+	padding:0.7rem;
+	border:0.2rem solid black;
+	/* padding: 0.5rem 0.8rem; */
 	font-weight: 800;
 	transition: 0.5s ease;
 
@@ -50,8 +52,8 @@
 
 .link:hover {
 	background-color: var(--primary-color);
-	border-radius: 4rem 2rem 4rem;
-	padding: 0.5rem;
+	border-radius: 8rem 5rem 0rem;
+	padding: 0.8rem;
 	/* color: var(--primary-color); */
 }
 
@@ -66,8 +68,7 @@
 }
 
 .landing-heading {
-	background-color: var(--primary-color);
-	border-radius: 2rem 15rem 2rem;
+
 	color: var(--heading-color);
 	font-size: 4.5rem;
 }
