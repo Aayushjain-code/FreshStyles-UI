@@ -13,6 +13,7 @@
 @import url(./Header.css);
 @import url(./Star.css);
 @import url(./grid.css);
+@import url(./TextUtilities.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 html {
