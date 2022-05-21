@@ -12,17 +12,21 @@
     background-color: var(--white-color);
     color: var(--primary-color2);
 }
+
 .btn-link:hover {
     color: var(--primary-color);
 }
+
 .btn-link-underline {
     background-color: var(--white-color);
     color: var(--primary-color2);
 }
+
 .btn-link-underline:hover {
     color: var(--primary-color);
     text-decoration: underline;
 }
+
 /* icon button */
 .btn-icon {
     background-color: var(--white-color);
@@ -33,18 +37,22 @@
     color: var(--primary-color2);
     font-size: 2rem;
 }
+
 .btn-icon:hover {
     background-color: var(--box-shadow);
     color: var(--primary-hover-color);
 }
+
 /* icon inside button */
 .btn-with-icon {
     background-color: var(--primary-color2);
     color: var(--white-color);
 }
+
 .btn-with-icon:hover {
     background-color: var(--primary-hover-color);
 }
+
 /* floating button */
 .btn-floating {
     border-radius: 50%;
@@ -53,13 +61,14 @@
     height: 5rem;
     width: 5rem;
     padding: 1rem;
-    box-shadow:0px 0px 5px var(--box-shadow);
+    box-shadow: 0px 0px 5px var(--box-shadow);
 }
-.btn-floating:hover{
+
+.btn-floating:hover {
     background-color: var(--primary-hover-color);
 }
 
-.btn-disabled{
+.btn-disabled {
     opacity: 0.65;
     pointer-events: none;
 }
@@ -143,4 +152,21 @@
     background-color: transparent;
     color: var(--error-bg);
     border: 1px solid var(--error-color);
+}
+
+
+.back_to_top {
+ box-sizing: border-box;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+
+ font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+   z-index: var(--z-index-3);
+   position: fixed;
+   bottom: 1rem;
+   right: 1rem;
 }
